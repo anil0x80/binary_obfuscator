@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Techniques">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Techniques\RTTI">
+      <UniqueIdentifier>{dcc0ce20-1005-4e54-85fd-91e884a2c6a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PE">
+      <UniqueIdentifier>{c5abd0ac-6de4-4118-959f-3a3999cc1319}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rtti.cpp">
+      <Filter>Techniques\RTTI</Filter>
+    </ClCompile>
+    <ClCompile Include="pe.cpp">
+      <Filter>PE</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>PE</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="rtti.h">
+      <Filter>Techniques\RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="pe.h">
+      <Filter>PE</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>PE</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
